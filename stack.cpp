@@ -108,7 +108,10 @@ int main()
         case 3:
              stack.peek();
 
-    
+        case 4:
+             cout << "Exiting program." << endl;
+             break;
+        
 
         }
 
