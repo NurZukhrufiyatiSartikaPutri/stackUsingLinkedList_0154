@@ -59,5 +59,13 @@ public:
 
     // Peek/Top operation: Retrive the value of the topmost element without removing it
     void peek()
-   {}
+    {
+        if (isEmpty())
+        {
+            cout << "List is empty." << endl;
+            return; // if the stack is empty, print a message and return
+        }
+       
+}
 };
+
