@@ -45,6 +45,10 @@ public:
     
     // Pop operation: Remove the topmost element from the stack
     void pop()
-    {}
+    {
+        Node* temp = top; //create a temporarry pointer to the current top node
+        if (isEmpty())
+        {}
+    }
 };
-        
+           
