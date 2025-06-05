@@ -54,5 +54,7 @@ public:
         }
         cout << "Popped value: " << top->data <<endl;
         top =top->next; // Update the top pointer the next node
+        temp = nullptr; // Free the memory of the pooped node
     }
+
 };
