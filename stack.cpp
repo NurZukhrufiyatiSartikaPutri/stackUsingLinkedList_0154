@@ -102,7 +102,14 @@ int main()
               cin >> value;
               stack.push(value); //Push the entered value onto the stack
               break;
+        case 2:   // Pop the topmost element from the stack
+             stack.pop();
+             break;
+        
+
         }
+
+        cout << endl;
     }
     return 0;
 };
